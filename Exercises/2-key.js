@@ -19,6 +19,6 @@ const generateKey = (length, possible) => {
 
 const characters = 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpRrSsTtUuVvWwXxYyZz0123456789*/-+=(){}[]<>\|?:;&%$#@!~';
 
-console.log(generateKey(15, characters)); 
+console.log(generateKey(15, characters));
 
 module.exports = { generateKey };
